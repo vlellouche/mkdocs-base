@@ -3,4 +3,4 @@ pages:
 - Home: 'index.md'
 - Preparations: 'dev-docs/basic-training/01_Preparations/index.md'
 - Opening: 'dev-docs/basic-training/02_Opening/index.md'
-theme: readthedocs 
+theme: readthedocs

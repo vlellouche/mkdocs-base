@@ -1,0 +1,9 @@
+site_name: Firefly Migration
+pages:
+- Home: 'index.md'
+- Preparations: 'dev-docs/basic-training/01_Preparations/index.md'
+- Opening: 'dev-docs/basic-training/02_Opening/index.md'
+- An Introduction to .NET:
+    - 'An Introduction to .NET': 'dev-docs/basic-training/03_An_introduction-to-.NET/index.md'
+    - 'Exercise': 'dev-docs/basic-training/03_An_introduction-to-.NET/exercise/index.md'
+theme: readthedocs

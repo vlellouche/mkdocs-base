@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    #\u00a0The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-mkdocs",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    #\u00a0The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/dev-docs/basic-training/01_Preparations/",
+            "text": "\ufeff# Preparations\n\n\nPrerequisites\n\n\n\n\nVisual Studio\n\n\nTemplates and Snippet\n\n\nFirefly Tool Box\n\n\nMigrated application source code\n\n\nMigrated application database \n\n\nFirefly Documentation chm file\n\n\nFirefly Code Samples Project \n\n\n\n\nTrainer Preparations\n\n\n\n\nAs a preparation for the training you need to:\n    a. Read all the documents and do all the examples yourself before the training.\n    b. Do all the exercises yourself before the training.\n    c. Go over some parts of the documentation that will be discussed during the training:\n        i. \nUIController.Relations\n (Add method, RelationType enum)\n        ii. \nUIController.Where\n\n\nBefore starting the training:\n    a. Open Visual Studio. In Tools\\Options menu, select \u201cWindows Forms Designer\u201d on the left tree and make sure that the \u201cAutoToolboxPopulate\u201d property is set to false.\n    b. Open the migrated application, rebuild it and make sure it runs.\n    c. In Build\\Configuration Manager Menu, uncheck all projects except ENV and the main project. Also make sure ENV is built with no debug info (ENV project properties -> Build-> Advanced button -> Debug Info: = none). Build and run again.\n    d. Make sure In Debug-> Exceptions that the Thrown checkbox is checked for CLR Exceptions.\n    e. Make sure you have templates and snippet and test that the UIController template builds successfully.\n    f. Verify that you have line numbers in the code area.\n    g. Open the designer of the ApplicationMdi screen and leave the Visual Studio ready for the first demo.",
+            "title": "Preparations"
+        },
+        {
+            "location": "/dev-docs/basic-training/01_Preparations/#prerequisites",
+            "text": "Visual Studio  Templates and Snippet  Firefly Tool Box  Migrated application source code  Migrated application database   Firefly Documentation chm file  Firefly Code Samples Project",
+            "title": "Prerequisites"
+        },
+        {
+            "location": "/dev-docs/basic-training/01_Preparations/#trainer-preparations",
+            "text": "As a preparation for the training you need to:\n    a. Read all the documents and do all the examples yourself before the training.\n    b. Do all the exercises yourself before the training.\n    c. Go over some parts of the documentation that will be discussed during the training:\n        i.  UIController.Relations  (Add method, RelationType enum)\n        ii.  UIController.Where  Before starting the training:\n    a. Open Visual Studio. In Tools\\Options menu, select \u201cWindows Forms Designer\u201d on the left tree and make sure that the \u201cAutoToolboxPopulate\u201d property is set to false.\n    b. Open the migrated application, rebuild it and make sure it runs.\n    c. In Build\\Configuration Manager Menu, uncheck all projects except ENV and the main project. Also make sure ENV is built with no debug info (ENV project properties -> Build-> Advanced button -> Debug Info: = none). Build and run again.\n    d. Make sure In Debug-> Exceptions that the Thrown checkbox is checked for CLR Exceptions.\n    e. Make sure you have templates and snippet and test that the UIController template builds successfully.\n    f. Verify that you have line numbers in the code area.\n    g. Open the designer of the ApplicationMdi screen and leave the Visual Studio ready for the first demo.",
+            "title": "Trainer Preparations"
+        },
+        {
+            "location": "/dev-docs/basic-training/02_Opening/",
+            "text": "\ufeff# Opening\n\n\nWelcome to Firefly\u2019s training. Introduce myself. Please introduce yourself (Name, Job Responsibility, Programming Experience etc.)\n\n\nTraining Goals\n\n\n\n\nTo train .NET/Magic developers for maintaining the migrated application and further developing it with improved C# skills.\n\n\nFor those of you who develop in Magic, we aim that within six months from now, you will develop at least at the same pace in .NET. It usually happens much earlier than that.\n\n\nThe transition from Magic development to the .NET world is not easy. From my own experience it takes a lot of effort and patience, but it\u2019s very fun and worthwhile.\n\n\n\n\nTraining outline\n\n\n\n\nFirst, we will have an overview of the .NET framework and C# basics.\n\n\nNext we will get to know the different components that make up the migrated application. Later on we are going to revisit them and deepen our knowledge.\n\n\nIn the second part of the training we will focus on understanding the migrated code and maintaining it, using the advantages of the .NET framework.\n\n\nThis is a very hands-on training, so get ready for lots of exercises.\n\n\nWe will use Visual Studio to do the exercises and we will cover a lot of the IDE (Interactive Development Environment ) features that we use to develop and debug .NET applications.",
+            "title": "Opening"
+        },
+        {
+            "location": "/dev-docs/basic-training/02_Opening/#training-goals",
+            "text": "To train .NET/Magic developers for maintaining the migrated application and further developing it with improved C# skills.  For those of you who develop in Magic, we aim that within six months from now, you will develop at least at the same pace in .NET. It usually happens much earlier than that.  The transition from Magic development to the .NET world is not easy. From my own experience it takes a lot of effort and patience, but it\u2019s very fun and worthwhile.",
+            "title": "Training Goals"
+        },
+        {
+            "location": "/dev-docs/basic-training/02_Opening/#training-outline",
+            "text": "First, we will have an overview of the .NET framework and C# basics.  Next we will get to know the different components that make up the migrated application. Later on we are going to revisit them and deepen our knowledge.  In the second part of the training we will focus on understanding the migrated code and maintaining it, using the advantages of the .NET framework.  This is a very hands-on training, so get ready for lots of exercises.  We will use Visual Studio to do the exercises and we will cover a lot of the IDE (Interactive Development Environment ) features that we use to develop and debug .NET applications.",
+            "title": "Training outline"
+        }
+    ]
+}
