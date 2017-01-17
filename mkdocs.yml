@@ -2,12 +2,12 @@ site_name: Firefly Migration
 pages:
 - Home: 'index.md'
 - An Introduction to .NET: 
-    - 'Intro' : '03_An_introduction-to-.NET/index.md'
-    - 'Visual Studio and CSharp Overview' : '03_An_introduction-to-.NET/2-Visual-Studio-and-CSharp-Overview.md'
-    - 'Create a simple class' : '03_An_introduction-to-.NET/3-Create-a-simple-class.md'
-    - 'Explaining The Hello world example' : '03_An_introduction-to-.NET/4-Explaining-The-Hello-world-example.md'
-    - 'Method Arguments and Overloading' : '03_An_introduction-to-.NET/5-Method-Arguments-and-Overloading.md'
-    - 'Using directives' : '03_An_introduction-to-.NET/6-Using-directives.md'
-    - 'Snippets' : '03_An_introduction-to-.NET/7-Snippets.md'
-    - 'Comments' : '03_An_introduction-to-.NET/8-Comments.md'
+    - 'Intro' : 'dev-docs/basic-training/03_An_introduction-to-.NET/index.md'
+    - 'Visual Studio and CSharp Overview' : 'dev-docs/basic-training/03_An_introduction-to-.NET/2-Visual-Studio-and-CSharp-Overview.md'
+    - 'Create a simple class' : 'dev-docs/basic-training/03_An_introduction-to-.NET/3-Create-a-simple-class.md'
+    - 'Explaining The Hello world example' : 'dev-docs/basic-training/03_An_introduction-to-.NET/4-Explaining-The-Hello-world-example.md'
+    - 'Method Arguments and Overloading' : 'dev-docs/basic-training/03_An_introduction-to-.NET/5-Method-Arguments-and-Overloading.md'
+    - 'Using directives' : 'dev-docs/basic-training/03_An_introduction-to-.NET/6-Using-directives.md'
+    - 'Snippets' : 'dev-docs/basic-training/03_An_introduction-to-.NET/7-Snippets.md'
+    - 'Comments' : 'dev-docs/basic-training/03_An_introduction-to-.NET/8-Comments.md'
 theme: readthedocs 
