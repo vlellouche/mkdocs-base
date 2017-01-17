@@ -1,0 +1,1 @@
+xcopy /e /v C:\Users\Virginie\Source\Repos\firefly-doc-master\dev-docs\guide C:\Users\Virginie\Documents\GitHub\mkdocs-base\docs\dev-docs\basic-training

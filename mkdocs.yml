@@ -1,6 +1,13 @@
 site_name: Firefly Migration
 pages:
 - Home: 'index.md'
-- Preparations: 'dev-docs/basic-training/01_Preparations/index.md'
-- Opening: 'dev-docs/basic-training/02_Opening/index.md'
+- An Introduction to .NET: 
+    - 'Intro' : '03_An_introduction-to-.NET/index.md'
+    - 'Visual Studio and CSharp Overview' : '03_An_introduction-to-.NET/2-Visual-Studio-and-CSharp-Overview.md'
+    - 'Create a simple class' : '03_An_introduction-to-.NET/3-Create-a-simple-class.md'
+    - 'Explaining The Hello world example' : '03_An_introduction-to-.NET/4-Explaining-The-Hello-world-example.md'
+    - 'Method Arguments and Overloading' : '03_An_introduction-to-.NET/5-Method-Arguments-and-Overloading.md'
+    - 'Using directives' : '03_An_introduction-to-.NET/6-Using-directives.md'
+    - 'Snippets' : '03_An_introduction-to-.NET/7-Snippets.md'
+    - 'Comments' : '03_An_introduction-to-.NET/8-Comments.md'
 theme: readthedocs 
